@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/space_time_cube" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
