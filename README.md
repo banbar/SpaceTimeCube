@@ -7,13 +7,7 @@ This repository contains the sample data and code of the 'Space Time Cube' plugi
 The plugin requires the following inputs:
 * **Input data:** the space-time point data set available in the QGIS layer panel.
 * **Weight field:** whether a weight is assigned to the points. One of the attributes of the data could be selected.
-* **Cube dimensions:** The first option *size* allows the selection of the number of cells for each axis. The *internal* option allows the user to specify the approximated length of a cell. For example, if the maximum distance along the *x*-axis between two points is 1248 metres, and the user specified the size parameters as $$\eta_x$$.  
-
-$$V_{sphere} = \frac{4}{3}\pi r^3$$
-
-$\sum_{i=1}^n X_i$
-
-$$\sum_{i=1}^n X_i$$
+* **Cube dimensions:** The first option *size* allows the selection of the number of cells for each axis. The *internal* option allows the user to specify the approximated length of a cell. For example, if the maximum distance along the *x*-axis between two points is 1248 metres, and the user specified the size parameter $\eta_x = 50$, then the length of a cell in *x*-axis would be 24.96 metres. On the other hand, if the user specified the *interval* parameter $\Delta x = 100$ metres, then there would be 12 cells on the *x* axis with a length of 104 metres in order to minimise the edge effect.  
 
 
 
