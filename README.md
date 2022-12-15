@@ -4,19 +4,38 @@ This repository contains the sample data and code of the 'Space Time Cube' plugi
 * The URL of the plugin: <a href="https://plugins.qgis.org/plugins/space_time_cube/" target="_blank">`https://plugins.qgis.org/plugins/space_time_cube/`</a>
 * Video tutorial: <a href="https://www.youtube.com/watch?v=Tcdvlk_NS8w&feature=youtu.be" target="_blank">`https://www.youtube.com/watch?v=Tcdvlk_NS8w&feature=youtu.be`</a>  
 
+The main purpose of the plugin is the detection of hot spots localised in space and time using two different statistics: i) Getis-Ord $G_i*$ and ii) local Moran's I.
+
 The plugin requires the following inputs:
 * **Input data:** the space-time point data set available in the QGIS layer panel.
 * **Weight field:** whether a weight is assigned to the points. One of the attributes of the data could be selected.
-* **Cube dimensions:** The first option *size* allows the selection of the number of cells for each axis. The *internal* option allows the user to specify the approximated length of a cell. For example, if the maximum distance along the *x*-axis between two points is 1248 metres, and the user specified the size parameter $\eta_x = 50$, then the length of a cell in *x*-axis would be 24.96 metres. On the other hand, if the user specified the *interval* parameter $\Delta x = 100$ metres, then there would be 12 cells on the *x* axis with a length of 104 metres in order to minimise the edge effect.  
+* **Cube dimensions:**
+ * The first option *size* allows the selection of the number of cells for each axis.
+ * The second option *internal* allows the user to specify the approximated length of a cell.
 
 
+```
+ **Example**
+
+ Assume maximum distance along the *x*-axis to be 1248 metres,
+ and the user specified the size parameter $\eta_x = 50$,
+ then the length of a cell on the *x*-axis would be 24.96 metres.
+ 
+ On the other hand, if the user specified the *interval* parameter $\Delta x = 100$ metres, then there would be 12 cells on the *x*- axis with a length of 104 metres. This approximation was realised in order to minimise the edge effect.  
+ ```
 
 
-
+ ---
+* **Select time field:** The user can select the time field based on various different representations.
+* **Create tiff files:** This optional field creates tiff files for each time slice.
+* **Statistic Method:** Determines the hot spot detection method.
+* **Aggregation Method:** How the points inside a cell are aggregated. If no weight is assigned, then ***Sum*** should be used. If there is a weight, then all three options are viable.
 
 <p align="center">
   <img width="350" src="img/1_create_cube.jpg">
 </p>
+
+The second tab of the plugin allows
 
 The plugin identifies the Minimum Spanning Tree (MST) of geographical inputs. Three different ways to determine costs of edges are considered, which constitute the tabs of the plugin:
 1. **Vector**: Provided by the given input linestring.
