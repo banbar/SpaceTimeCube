@@ -7,7 +7,7 @@ This repository contains the sample data and code of the 'Space Time Cube' plugi
 
 
 The main purpose of the plugin is the detection of hot spots localised in space and time using two different statistics:
-1. Getis-Ord $G_i$*, and
+1. Getis-Ord $G_i^*$, and
 2. Local Moran's I.
 
 The plugin requires the following inputs:
