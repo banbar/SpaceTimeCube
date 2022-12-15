@@ -16,13 +16,10 @@ The plugin requires the following inputs:
 ---
 **Example**
 
-Assume maximum distance along the *x*-axis to be 1248 metres,
-and the size parameter $\eta_x = 50$,
-then the length of a cell on the *x*-axis would be 24.96 metres.
+Assume maximum distance along the *x*-axis to be 1248 metres.
 
-Or, if the interval parameter $\Delta x = 100$ metres, then there would be 12 cells on the *x*- axis with a length of 104 metres.
-This approximation was realised in order to minimise the edge effect.  
-
+1. **Size** parameter $\eta_x = 50$: The length of a cell on the *x*-axis would be 24.96 metres.
+2. **Interval** parameter $\Delta x = 100$ metres, then there would be 12 cells on the *x*- axis each having a length of 104 metres. This approximation was realised in order to minimise the edge effect.  
 ---
 
 * **Select time field:** The user can select the time field based on various different representations.
