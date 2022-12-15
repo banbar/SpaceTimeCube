@@ -49,7 +49,7 @@ The **third tab** of the plugin also allows interactive analysis by plotting how
   <img width="350" src="img/3_neighbours.jpg">
 </p>
 
-$\color{#FF0000}{The ~ value ~ of ~ a ~ cell}$ can be compared with its neighbouring cells' values. $\color{#00FF00}{The ~ mean ~ of ~ neighbouring ~ cells}$ are also displayed next to it.  
+$\color{#FF0000}{The ~ value ~ of ~ a ~ cell}$ can be compared with its neighbouring cells' values. $\color{#017F02}{The ~ mean ~ of ~ neighbouring ~ cells}$ are also displayed next to it.  
 
 In this way, users can have a better understanding how the neighbouring cells' values changed.
 * $\color{#8C8FFA}{The ~ first  ~ colour ~ code}$ represents the previous time unit,
@@ -64,9 +64,22 @@ The **fourth tab** of the plugin generates random space-time point data. This si
 
 The spatial and temporal extents of the data could be defined, as well as whether a weight is assigned to each point, and if so its range.
 
+If the optional parameter **Create tiff files:** had been selected, for each time slice a tiff file would be created providing cell-level statistic (Getis-Ord $G_i*$ or Local Moran's I) values. In addition, the 2D grids shapefile would also be created:
 
 <p align="center">
-  <img width="600" src="images/flowchart.jpg">
+  <img width="350" src="img/5_tiff_files.jpg">
 </p>
 
-The OSGeo functionalities used within the plugin are described [here](https://raw.githubusercontent.com/banbar/Minimum_Spanning_Tree_QGIS/431cf56ff2e6bc088d7adceac0c8923f849cfd11/img/code%20diagram_explanations.svg).
+
+---
+## Python Package - spacetimecube
+
+The aforementioned functionality was also developed as the Python package [spacetimecube](https://pypi.org/project/spacetimecube/) in order to efficiently conduct sensitivity analysis on the parameters (especially on the dimensions of a cell).  
+
+The following versions of the packages are required:
+<p align="center">
+  <img width="260" src="img/6_versions.jpg">
+</p>
+
+
+The Jupyter Notebook and associated data could be downloaded from: <a href="http://yunus.hacettepe.edu.tr/~banbar/stc_analysis_jupyter.zip" target="_blank">`http://yunus.hacettepe.edu.tr/~banbar/stc_analysis_jupyter.zip`</a>
