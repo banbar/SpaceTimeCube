@@ -67,7 +67,7 @@ The spatial and temporal extents of the data could be defined, as well as whethe
 If the optional parameter **Create tiff files:** had been selected, for each time slice a tiff file would be created providing cell-level statistic (Getis-Ord $G_i*$ or Local Moran's I) values. In addition, the 2D grids shapefile would also be created:
 
 <p align="center">
-  <img width="350" src="img/5_tiff_files.jpg">
+  <img width="600" src="img/5_tiff_files.jpg">
 </p>
 
 
