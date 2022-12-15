@@ -7,7 +7,7 @@ This repository contains the sample data and code of the 'Space Time Cube' plugi
 
 
 The main purpose of the plugin is the detection of hot spots localised in space and time using two different statistics:
-1. Getis-Ord $G_i*$, and
+1. Getis-Ord $G_i$*, and
 2. Local Moran's I.
 
 The plugin requires the following inputs:
@@ -64,7 +64,7 @@ The **fourth tab** of the plugin generates random space-time point data. This si
 
 The spatial and temporal extents of the data could be defined, as well as whether a weight is assigned to each point, and if so its range.
 
-If the optional parameter **create tiff files** had been selected, for each time slice a tiff file would be created providing cell-level statistic (Getis-Ord $G_i*$ or Local Moran's I) values. In addition, the 2D grids shapefile would also be created:
+If the optional parameter **create tiff files** had been selected, for each time slice a tiff file would be created providing cell-level statistic (Getis-Ord $G_i$* or Local Moran's I) values. In addition, the 2D grids shapefile would also be created:
 
 <p align="center">
   <img width="600" src="img/5_tiff_files.jpg">
