@@ -10,8 +10,8 @@ The plugin requires the following inputs:
 * **Input data:** the space-time point data set available in the QGIS layer panel.
 * **Weight field:** whether a weight is assigned to the points. One of the attributes of the data could be selected.
 * **Cube dimensions:**
- * The first option *size* allows the selection of the number of cells for each axis.
- * The second option *internal* allows the user to specify the approximated length of a cell.
+  * The first option *size* allows the selection of the number of cells for each axis.
+  * The second option *internal* allows the user to specify the approximated length of a cell.
 
 ---
 **Example**
