@@ -47,7 +47,7 @@ The **third tab** of the plugin also allows interactive analysis by plotting how
   <img width="350" src="img/3_neighbours.jpg">
 </p>
 
-$\color{#FF0000}{The value of a cell}$ can be compared with its neighbouring cells' values. In this way, users can have a better understanding how the neighbouring cells' values changed. $\color{#8C8FFA}{The first colour code}$ represents the previous time unit, $\color{#3B38FB}{the second colour code}$ represents the same temporal unit, and $\color{#12077F}{the third colour code}$ represents the next temporal unit. 
+$\color{#FF0000}{The~value~of~a~cell}$ can be compared with its neighbouring cells' values. In this way, users can have a better understanding how the neighbouring cells' values changed. $\color{#8C8FFA}{The first colour code}$ represents the previous time unit, $\color{#3B38FB}{the second colour code}$ represents the same temporal unit, and $\color{#12077F}{the third colour code}$ represents the next temporal unit. 
 
 
 
