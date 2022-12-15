@@ -3,7 +3,7 @@
 This repository contains the sample data and code of the 'Space Time Cube' plugin of QGIS 3.x.
 * The URL of the plugin: <a href="https://plugins.qgis.org/plugins/space_time_cube/" target="_blank">`https://plugins.qgis.org/plugins/space_time_cube/`</a>
 * Video tutorial: <a href="https://www.youtube.com/watch?v=Ibbs7u-iawE" target="_blank">`https://www.youtube.com/watch?v=Ibbs7u-iawE`</a>
-* [New York City taxi data](https://data.cityofnewyork.us/Transportation/2015-Yellow-Taxi-Trip-Data/ba8s-jw6u): <a href="http://yunus.hacettepe.edu.tr/~banbar/mst_raster.zip" target="_blank">`Dropoff locations @ Manhattan, on New Year's Day of 2015`</a>
+* [New York City taxi data](https://data.cityofnewyork.us/Transportation/2015-Yellow-Taxi-Trip-Data/ba8s-jw6u) - the Geopackage of the data could be found at the end of this Readme.
 
 
 The main purpose of the plugin is the detection of hot spots localised in space and time using two different statistics:
@@ -64,7 +64,7 @@ The **fourth tab** of the plugin generates random space-time point data. This si
 
 The spatial and temporal extents of the data could be defined, as well as whether a weight is assigned to each point, and if so its range.
 
-If the optional parameter **Create tiff files:** had been selected, for each time slice a tiff file would be created providing cell-level statistic (Getis-Ord $G_i*$ or Local Moran's I) values. In addition, the 2D grids shapefile would also be created:
+If the optional parameter **create tiff files** had been selected, for each time slice a tiff file would be created providing cell-level statistic (Getis-Ord $G_i*$ or Local Moran's I) values. In addition, the 2D grids shapefile would also be created:
 
 <p align="center">
   <img width="600" src="img/5_tiff_files.jpg">
@@ -82,4 +82,4 @@ The following versions of the packages are required:
 </p>
 
 
-The Jupyter Notebook and associated data could be downloaded from: <a href="http://yunus.hacettepe.edu.tr/~banbar/stc_analysis_jupyter.zip" target="_blank">`http://yunus.hacettepe.edu.tr/~banbar/stc_analysis_jupyter.zip`</a>
+The Jupyter Notebook and associated data (i.e. `Dropoff locations @ Manhattan, on New Year's Day of 2015`) could be downloaded from: <a href="http://yunus.hacettepe.edu.tr/~banbar/stc_analysis_jupyter.zip" target="_blank">`http://yunus.hacettepe.edu.tr/~banbar/stc_analysis_jupyter.zip`</a>
