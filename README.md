@@ -3,7 +3,7 @@
 This repository contains the sample data and code of the 'Space Time Cube' plugin of QGIS 3.x.
 * The URL of the plugin: <a href="https://plugins.qgis.org/plugins/space_time_cube/" target="_blank">`https://plugins.qgis.org/plugins/space_time_cube/`</a>
 * Video tutorial: <a href="https://www.youtube.com/watch?v=Ibbs7u-iawE" target="_blank">`https://www.youtube.com/watch?v=Ibbs7u-iawE`</a>
-* [New York City taxi data](https://data.cityofnewyork.us/Transportation/2015-Yellow-Taxi-Trip-Data/ba8s-jw6u): <a href="Dropoff locations @ Manhattan, on New Year's Day of 2015" target="_blank">`http://yunus.hacettepe.edu.tr/~banbar/mst_raster.zip`</a>
+* [New York City taxi data](https://data.cityofnewyork.us/Transportation/2015-Yellow-Taxi-Trip-Data/ba8s-jw6u): <a href="http://yunus.hacettepe.edu.tr/~banbar/mst_raster.zip" target="_blank">`Dropoff locations @ Manhattan, on New Year's Day of 2015`</a>
 
 
 The main purpose of the plugin is the detection of hot spots localised in space and time using two different statistics:
