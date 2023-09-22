@@ -5,6 +5,7 @@ This repository contains the sample data and code of the 'Space Time Cube' plugi
 * Video tutorial: <a href="https://www.youtube.com/watch?v=Ibbs7u-iawE" target="_blank">`https://www.youtube.com/watch?v=Ibbs7u-iawE`</a>
 * [New York City taxi data](https://data.cityofnewyork.us/Transportation/2015-Yellow-Taxi-Trip-Data/ba8s-jw6u) - the Geopackage of the data could be found at the end of this Readme.
 
+>:white_check_mark: **If you are using this plugin for scientific research, please cite the paper** <a href=https://www.sciencedirect.com/science/article/pii/S2352711023001942>`<b>Space Time Cube analytics in QGIS and Python for hot spot detection</b></a> 
 
 The main purpose of the plugin is the detection of hot spots localised in space and time using two different statistics:
 1. Getis-Ord $G_i^*$, and
