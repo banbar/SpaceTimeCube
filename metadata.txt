@@ -6,11 +6,18 @@
 name=Space Time Cube
 qgisMinimumVersion=3.0
 description=This plugin creates a space-time cube based on given data.
-version=1.0
+version=1.1
 author=Murat Çalışkan, Berk Anbaroğlu
 email=caliskan.murat.20@gmail.com, banbar@hacettepe.edu.tr
 
-about=This plugin creates a space-time cube based on given data. Getis-Ord and Local Moran's I indices could be calculted.
+about=The main purpose of the plugin is the detection of hot spots (space-time clusters) localised in space and time using two different statistics: Getis-Ord and Local Moran's I. 
+    The plugin is composed of four tabs, in which the first one obtains the inputs -a space-time point dataset and the dimensions of the cube. The second and third tabs allows interactive analysis. "Temporal Change" tab allows temporal analysis on a selected cell. "Neighbours" tab allows investigation of the neighbouring cells of a selected cell. Finally, "Simulation" tab allows generation of random space-time point dataset for further analysis. 
+    The four outputs of the plugin are as follows: 
+    1. A csv file detailing the chosen statistics values at the cell level. 
+    2. A csv file that providing information for individual points. 
+    3. A shape file that visualises the created cells. 
+    4. The tiff files for each time slice demonstrating the cell's statistics to allow raster analysis.
+    Video tutorial: https://www.youtube.com/watch?v=Ibbs7u-iawE
 
 tracker=https://github.com/banbar/SpaceTimeCube/issues
 repository=https://github.com/banbar/SpaceTimeCube
@@ -29,7 +36,7 @@ homepage=https://github.com/banbar/SpaceTimeCube
 category=Plugins
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
